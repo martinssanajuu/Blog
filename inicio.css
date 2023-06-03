@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.tudo {
+    background-image: url("./imgs/fundo5edit.png");
+}
+.topo1{
+    height: 23px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    
+                                                
+}
+.topo1 p{
+    position: relative;
+    float: left;
+    margin-left: 70px;
+    font-size: 18px;
+    font-family: 'Omnes', sans-serif;
+}
+.topo {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.topo h1 {
+    color: white;
+    position: relative;
+    margin-left: 90px;
+    margin: 20px;
+    font-family: 'Omnes', sans-serif;
+    font-size: 40px;
+    
+}
+.topo img{
+    height: 90px;
+    width: 80px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.card{
+    font-family: 'Caver Pitalsal', sans-serif;
+    margin: 20px;
+    margin-left: 340px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    padding: 25px;
+    background-color: #0000007a;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.619);
+    position: relative;
+
+}
+
+.content{
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content{
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content p{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+
+}
+
+.icon img {
+    width: 300px;   
+    margin-left: 130px;
+    border-radius: 50%;
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+ .titulos{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: black;  
+}
+
+
+.titulos>div{
+    margin-left: 4px;
+    width: 400px;
+    margin: 10px;
+    color: white;
+    
+   
+  }
+  
+  .titulos>div img{
+    /* float: left; */
+    border-radius: 15%;
+    margin: 10px;
+    margin-left: 80px;
+    width: 300px;
+    height: 250px;
+    
+  }
+
+  .titulos>div p{
+    font-family: 'Omnes', sans-serif;
+    margin-left: 80px;
+    font-size: 15px;
+    
+  }
+
+
+.tudo3 {
+    background-image: url("./imgs/fundo5edit.png"); 
+}
+
+
+.noticiastitulo h1{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+    margin-left: 550px;  
+}
+
+
+/* primeiro card noticia */
+.cardnot{
+    font-family: 'Caver Pitalsal', sans-serif;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #0000007a;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.619);
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.contentnot{
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentnot{
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contentnot p{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+
+}
+
+.iconnot img {
+    width: 200px;   
+    margin-left: 20px;
+    border-radius: 30%;
+}
+
+/* segundo card noticia */
+.contentnot h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Omnes', sans-serif;
+}
+
+.cardnot1{
+    font-family: 'Caver Pitalsal', sans-serif;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #0000007a;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.619);
+    position: relative;
+
+}
+
+.contentnot1{
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentnot1{
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contentnot1 p{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+
+}
+
+.iconnot1 img {
+    width: 200px; 
+    height: 260px;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+.contentnot1 h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Omnes', sans-serif;
+}
+
+/* terceiro card noticia */
+
+.cardnot2{
+    font-family: 'Caver Pitalsal', sans-serif;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 25px;
+    background-color: #0000007a;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.619);
+    position: relative;
+
+}
+
+.contentnot2{
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentnot2{
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contentnot2 p{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+
+}
+
+.iconnot2 img {
+    width: 300px; 
+    height: 230px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+
+.contentnot2 h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Omnes', sans-serif;
+}
+
+.tudo4{
+    background-color: black;
+}
+
+.historico h1{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+    margin-left: 550px;  
+}
+
+
+.historico h2{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+    margin-left: 550px;
+    margin-left: 320px;  
+}
+
+.historico p{
+    color: white;
+    font-family: 'Omnes', sans-serif;
+    margin-left: 600px;
+}
+
+.video iframe{
+    margin: 60px;
+    margin-left: 250px;
+    height: 400px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
